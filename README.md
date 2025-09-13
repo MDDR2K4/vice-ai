@@ -1,6 +1,3 @@
-code Markdown
-downloadcontent_copy
-expand_less
    # Vice AI - Project Vision & Technical Blueprint
 
 **Tagline:** Engineered for Genuine Connection.
