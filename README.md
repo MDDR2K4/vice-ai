@@ -1,42 +1,35 @@
-   # Vice AI - Project Vision & Technical Blueprint
+  # Vice AI - Project Vision & Technical Blueprint
 
-**Tagline:** Engineered for Genuine Connection.
+**Tagline:** Clarity, Engineered.
 
-This repository contains the project vision, technical architecture, and development plan for Vice AI, submitted for the OpenAI x NxtWave Hackathon.
+This repository contains the project vision and technical plan for Vice AI, a cognitive sounding board designed for mental clarity.
 
 ---
 
 ### 1. Core Problem
 
-Current social platforms are engineered for addiction, not connection. This has led to a global rise in loneliness and a decline in deep, meaningful friendships.
+The modern mind is cluttered, leading to stress and indecision. There is no effective tool for privately dissecting and structuring one's own thoughts.
 
 ### 2. Our Solution
 
-Vice AI is a "personality-first" platform that uses a sophisticated AI to understand users on a deep level. We engineer connections based on true psychological compatibility, forcing substance over superficiality.
+Vice AI is a tool to get a firm grip on your thoughts. Users speak their mind via voice notes. The AI listens, analyzes, and asks sharp, insightful questions to help the user achieve clarity. It is a tool for analysis, not just empathy.
 
 ### 3. Proposed Tech Stack
 
 *   **Frontend:** React.js (with Vite)
 *   **Backend:** Python with FastAPI
-*   **Database:** Supabase (for Auth, DB, and Storage)
-*   **AI APIs:** OpenAI GPT-4 and Whisper API
+*   **Database:** Supabase
+*   **AI APIs:** OpenAI Whisper API and GPT-4
 *   **Deployment:** Vercel
 
-### 4. User Flow & API Integration
+### 4. Core AI Logic (Prompt Engineering)
 
-1.  **Onboarding:** User engages in a "Diagnostic Conversation" with our AI.
-    *   **Frontend** sends user's text/voice to our **Backend**.
-    *   If voice, **Backend** calls **Whisper API** to transcribe.
-    *   **Backend** sends the transcript to **GPT-4 API** to generate a "Personality Blueprint."
-2.  **Matching:**
-    *   The Blueprint is stored in **Supabase**.
-    *   A backend script compares Blueprints to find optimal matches.
-3.  **Match Reveal:**
-    *   The match data is sent to **GPT-4 API** to generate the "Why you're compatible" summary, which is then displayed to the user.
+The core of Vice AI is a precision-engineered GPT-4 prompt:
+
+`"You are Vice AI, a cognitive sounding board. Your goal is to help the user achieve clarity. You must follow these rules: 1. Do not give advice or opinions. 2. Summarize the user's core problem or emotion in one sentence. 3. Ask one sharp, insightful, open-ended question that forces critical thinking. 4. Your entire response must be concise and direct. User's entry: [INSERT TRANSCRIPT HERE]"`
 
 ---
 
 ### 5. Project Status
 
-This project is currently in the **conceptual and architectural planning stage**. The next step is to build the MVP as outlined in our feasibility plan.
-
+This project is currently in the **conceptual and architectural planning stage**
