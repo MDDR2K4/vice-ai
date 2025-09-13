@@ -1,4 +1,3 @@
-# vice-ai
 code Markdown
 downloadcontent_copy
 expand_less
